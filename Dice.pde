@@ -47,7 +47,6 @@ class Die //models one single dice cube
     fill(255);
     rect(myX,myY,50,50);
     fill((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
-    System.out.println(diceValue);
     if (diceValue==1)
     {
       ellipse(myX+25,myY+25,10,10);
